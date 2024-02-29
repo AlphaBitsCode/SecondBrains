@@ -19,6 +19,25 @@ The SecondBrains framework is specifically designed for Tech Leads, CIOs, and CT
 
 **Integration Ecosystem:** Seamlessly integrate with existing systems and applications, including IoT devices, enterprise databases, and business applications, enhancing your tech stack's capabilities without disrupting existing operations.
 
+# Detailed Technical Components
+
+| Module                  | Service                  | Implementation Tool | Link to Website                               | Role of Component                                                              |
+| ----------------------- | ------------------------ | ------------------- | --------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Core Systems**        | Legacy Data Management   | Directus            | [directus.io](https://directus.io/)           | No-code back-end-as-a-service or also known as Headless CMS                    |
+|                         | Core Database            | Postgres            | [postgresql.org](https://www.postgresql.org/) | Postgres to work with Directus, SQL is preferred for data analytics purposes   |
+| **Workflow Automation** | Workflow Coordinator     | n8n                 | [n8n.io](https://n8n.io/)                     | Automates business and IoT workflows                                           |
+| **Enterprise Apps**     | Mobile Apps Builder      | FlutterFlow         | [flutterflow.io](https://flutterflow.io/)     | Enables rapid mobile app development                                           |
+|                         | Enterprise Tool Builders | AppSmith            | [appsmith.com](https://www.appsmith.com/)     | Low-code platform for building internal tools                                  |
+| **Data Analytics**      | Data Collector           | Jitsu               | [jitsu.com](https://jitsu.com/)               | Collects data from various sources                                             |
+|                         | Real-time Monitoring     | Grafana             | [grafana.com](https://grafana.com/)           | Visualizes data from multiple sources in real-time                             |
+|                         | Datawarehouse            | BigQuery            | [cloud.google.com](https://cloud.google.com/bigquery)| Stores and analyzes large volumes of data                               |
+| **AI Agent Builder**    | AI Agent Builder         | Dify.ai             | [dify.ai](https://dify.ai/)                   | Provides tools for building and deploying AI agents                            |
+|                         | Local Knowledge Base     | ChromaDB            | [trychroma.com](https://www.trychroma.com/)   | Stores local knowledge for AI inference                                        |
+|                         | AI Training              | H2O LLM Studio      | [h2o.ai](https://h2o.ai/)                     | Facilitates local LLM fine-tuning and training of AI models                    |
+|                         | AI Inference             | LM Studio           | [lmstudio.ai](https://lmstudio.ai/)           | local LLM inference using open-source LLM models                               |
+| **IoT Infrastructure**  | Message Queue            | Mosquitto           | [mosquitto.org](https://mosquitto.org/)       | Facilitates message queuing for IoT communications                             |
+|                         | IoT Workflow Coordinator | NodeRed             | [nodered.org](https://nodered.org/)           | Enables low-code programming for event-driven IoT applications                 |
+
 # Support
 If you need help or have questions about SecondBrains, please check out our Discussions section for common questions or to open a new topic. For direct support, Alpha Bits is currently offering consultation and implementation services tailored to the diverse open-source stack utilized in the SecondBrains architecture ([contact@alphabits.team](mailto:contact@alphabits.team)).
 
