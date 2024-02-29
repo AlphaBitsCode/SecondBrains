@@ -38,6 +38,14 @@ The SecondBrains framework is specifically designed for Tech Leads, CIOs, and CT
 | **IoT Infrastructure**  | Message Queue            | Mosquitto           | [mosquitto.org](https://mosquitto.org/)       | Facilitates message queuing for IoT communications                             |
 |                         | IoT Workflow Coordinator | NodeRed             | [nodered.org](https://nodered.org/)           | Enables low-code programming for event-driven IoT applications                 |
 
+# Network Configuration
+
+For secure and efficient networking within the enterprise environment, SecondBrains recommends the use of ZeroTier and Cloudflare Tunnel to set up a private network. These tools facilitate the creation of secure, easy-to-manage networks that connect devices, services, and applications across varied environments without exposing them directly to the internet.
+
+[ZeroTier](https://www.zerotier.com/): Offers a simple yet powerful way to create and manage a virtual network, allowing devices to connect securely over the internet as if they were on the same local network. This is ideal for connecting distributed systems, remote workers, and IoT devices securely.
+
+[Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/): Allow local HTTP traffic to be mapped to a specific subdomain. Especially useful when your server does not have static IP, or does not allow incoming traffic on common ports.
+
 # Support
 If you need help or have questions about SecondBrains, please check out our Discussions section for common questions or to open a new topic. For direct support, Alpha Bits is currently offering consultation and implementation services tailored to the diverse open-source stack utilized in the SecondBrains architecture ([contact@alphabits.team](mailto:contact@alphabits.team)).
 
