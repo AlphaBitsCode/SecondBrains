@@ -1,5 +1,5 @@
 ![SecondBrains](assets/images/v0.0.3.jpg)
-Updated: v0.0.3 ~ February 2024.
+*Updated: v0.0.3 ~ February 2024. [Link to PDF](assets/pdfs/v0.0.3.pdf).*
 
 # SecondBrains Architecture by Alpha Bits
 
