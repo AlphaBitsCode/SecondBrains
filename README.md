@@ -3,7 +3,7 @@
 
 # SecondBrains Architecture by Alpha Bits
 
-SecondBrains is an open-source framework designed to empower SMEs and Startups with advanced workflow automation, data analytics, and AI agent building capabilities, using a selection of low-code or no-code tools. This framework developed with a focus on businesses without in-house technical teams, hence these tools have been chosen to minimize the need for a large team of developers, suitable for small project's budget. SecondBrains aims to democratize access to cutting-edge technologies. The framework and its components have been tested in production environments for several clients of ours, ensuring reliability and effectiveness in real-world applications.
+SecondBrains is an open-source framework designed to empower SMEs and Startups with advanced workflow automation, data analytics, and AI agent building capabilities, using a selection of low-code or no-code tools. This framework developed with a focus on businesses without in-house technical teams, hence these tools have been chosen to minimize the need for a large team of developers, suitable for small project's budget. SecondBrains aims to democratize access to cutting-edge technologies. The framework and its components have been tested in production environments for several clients of ours, showing reliability and effectiveness in real-world applications. From our learning experience building [WorkerBot](https://github.com/AlphaBitsCode/WorkerBot) AI Stack, we picked and recommend different components for building your own enterprise AI Agents.
 
 # The Conductor
 
@@ -43,6 +43,14 @@ The SecondBrains framework is specifically designed for Tech Leads, CIOs, and CT
 |                         | AI Inference             | LM Studio           | [lmstudio.ai](https://lmstudio.ai/)           | local LLM inference using open-source LLM models                               |
 | **IoT Infrastructure**  | Message Queue            | Mosquitto           | [mosquitto.org](https://mosquitto.org/)       | Facilitates message queuing for IoT communications                             |
 |                         | IoT Workflow Coordinator | NodeRed             | [nodered.org](https://nodered.org/)           | Enables low-code programming for event-driven IoT applications                 |
+
+# Network Configuration
+
+For secure and efficient networking within the enterprise environment, SecondBrains recommends the use of ZeroTier and Cloudflare Tunnel to set up a private network. These tools facilitate the creation of secure, easy-to-manage networks that connect devices, services, and applications across varied environments without exposing them directly to the internet.
+
+[ZeroTier](https://www.zerotier.com/): Offers a simple yet powerful way to create and manage a virtual network, allowing devices to connect securely over the internet as if they were on the same local network. This is ideal for connecting distributed systems, remote workers, and IoT devices securely.
+
+[Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/): Allow local HTTP traffic to be mapped to a specific subdomain. Especially useful when your server does not have static IP, or does not allow incoming traffic on common ports.
 
 # Support
 If you need help or have questions about SecondBrains, please check out our Discussions section for common questions or to open a new topic. For direct support, Alpha Bits is currently offering consultation and implementation services tailored to the diverse open-source stack utilized in the SecondBrains architecture ([contact@alphabits.team](mailto:contact@alphabits.team)).
