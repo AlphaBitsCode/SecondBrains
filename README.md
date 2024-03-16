@@ -1,9 +1,16 @@
-![SecondBrains](assets/images/v0.0.3.jpg)
-*Updated: v0.0.3 ~ February 2024. [Link to PDF](assets/pdfs/v0.0.3.pdf).*
+![SecondBrains](assets/images/latest.jpg)
+*Updated: v0.0.4 ~ March 2024. [Link to PDF](assets/pdfs/latest.pdf).*
 
 # SecondBrains Architecture by Alpha Bits
 
 SecondBrains is an open-source framework designed to empower SMEs and Startups with advanced workflow automation, data analytics, and AI agent building capabilities, using a selection of low-code or no-code tools. This framework developed with a focus on businesses without in-house technical teams, hence these tools have been chosen to minimize the need for a large team of developers, suitable for small project's budget. SecondBrains aims to democratize access to cutting-edge technologies. The framework and its components have been tested in production environments for several clients of ours, ensuring reliability and effectiveness in real-world applications.
+
+# The Conductor
+
+Centrally to the SecondBrains framework, the Conductor is the essentially coordinator/automator/data-steward/controller of data from one system to another.
+We strongly recommend Node-Red as the open-source solution to this. Node-Red has been around for over 10 years, and is a great tool for building complex workflows; paired with a high performance MQTT broker, it is a powerful combination. There is definitly a learning curve, but once you get over the initial change of mindset to flow-based programming, everything else will be much easier, thanks to the wide community support, available of community plugins spaning over decades.
+
+Each Conductor can work alone and interact with other Conductors via private link (ZeroTier/VPN) and orchestrate the workflow across different business units.
 
 # Target Audience
 
@@ -25,7 +32,6 @@ The SecondBrains framework is specifically designed for Tech Leads, CIOs, and CT
 | ----------------------- | ------------------------ | ------------------- | --------------------------------------------- | ------------------------------------------------------------------------------ |
 | **Core Systems**        | Legacy Data Management   | Directus            | [directus.io](https://directus.io/)           | No-code back-end-as-a-service or also known as Headless CMS                    |
 |                         | Core Database            | Postgres            | [postgresql.org](https://www.postgresql.org/) | Postgres to work with Directus, SQL is preferred for data analytics purposes   |
-| **Workflow Automation** | Workflow Coordinator     | n8n                 | [n8n.io](https://n8n.io/)                     | Automates business and IoT workflows                                           |
 | **Enterprise Apps**     | Mobile Apps Builder      | FlutterFlow         | [flutterflow.io](https://flutterflow.io/)     | Enables rapid mobile app development                                           |
 |                         | Enterprise Tool Builders | AppSmith            | [appsmith.com](https://www.appsmith.com/)     | Low-code platform for building internal tools                                  |
 | **Data Analytics**      | Data Collector           | Jitsu               | [jitsu.com](https://jitsu.com/)               | Collects data from various sources                                             |
