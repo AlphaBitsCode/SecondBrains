@@ -8,7 +8,7 @@ SecondBrains is an open-source framework designed to empower SMEs and Startups w
 # The Conductor
 
 Centrally to the SecondBrains framework, the Conductor is the essentially coordinator/automator/data-steward/controller of data from one system to another.
-We strongly recommend Node-Red as the open-source solution to this. Node-Red has been around for over 10 years, and is a great tool for building complex workflows; paired with a high performance MQTT broker, it is a powerful combination. There is definitly a learning curve, but once you get over the initial change of mindset to flow-based programming, everything else will be much easier, thanks to the wide community support, available of community plugins spaning over decades.
+We strongly recommend Node-RED as the open-source solution to this. Node-RED has been around for over [10 years](https://nodered.org/about/), and is a great tool for building complex workflows; paired with any high performance MQTT broker, it is a powerful combination. There is definitly a learning curve, once you get over the initial change of mindset to [Flow-based programming](https://en.wikipedia.org/wiki/Flow-based_programming), things will be much easier, thanks to the wide community support, available of community plugins spaning over decades. AI Tools can help you write a signification portion of code for Node-RED.
 
 Each Conductor can work alone and interact with other Conductors via private link (ZeroTier/VPN) and orchestrate the workflow across different business units.
 
@@ -42,7 +42,7 @@ The SecondBrains framework is specifically designed for Tech Leads, CIOs, and CT
 |                         | AI Training              | H2O LLM Studio      | [h2o.ai](https://h2o.ai/)                     | Facilitates local LLM fine-tuning and training of AI models                    |
 |                         | AI Inference             | LM Studio           | [lmstudio.ai](https://lmstudio.ai/)           | local LLM inference using open-source LLM models                               |
 | **IoT Infrastructure**  | Message Queue            | Mosquitto           | [mosquitto.org](https://mosquitto.org/)       | Facilitates message queuing for IoT communications                             |
-|                         | IoT Workflow Coordinator | NodeRed             | [nodered.org](https://nodered.org/)           | Enables low-code programming for event-driven IoT applications                 |
+|                         | IoT Workflow Coordinator | Node-RED            | [nodered.org](https://nodered.org/)           | Enables low-code programming for event-driven IoT applications                 |
 
 # Network Configuration
 
